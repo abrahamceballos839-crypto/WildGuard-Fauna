@@ -1,1 +1,1 @@
-Osvaldo es putito
+Osvaldo es bien verga
