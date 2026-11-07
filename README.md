@@ -1,1 +1,1 @@
-Osvaldo es bien verga
+Osvaldo es bien Puto
