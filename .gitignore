@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+dataset_animals10/
+processed_data/
+saved_models/
+*.zip
+*.npz
