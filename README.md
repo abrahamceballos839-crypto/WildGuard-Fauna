@@ -9,22 +9,26 @@ Proyecto final de Aprendizaje Automático (UTL, 2026).
 - Brandon: CNN
 - Óscar: Refuerzo e integración
 
+## Estado del proyecto
+Entrega 1: datos, EDA inicial, partición y modelos clásicos supervisados.
+Las entregas 2 (CNN), 3 (refuerzo) y final (integración) se agregan en las
+siguientes semanas.
+
 ## Dataset
 Animals-10 (Kaggle, 26,179 imágenes, 10 clases).
 Descárgalo y colócalo en `./dataset_animals10/` (una carpeta por clase).
-No se sube al repo por su tamaño.
+No se sube al repo por su tamaño. También puedes descargarlo usando `kagglehub` (ver notebook).
+
 Clases (carpetas en italiano): cane=perro, cavallo=caballo,
 elefante=elefante, farfalla=mariposa, gallina=pollo, gatto=gato,
 mucca=vaca, pecora=oveja, ragno=araña, scoiattolo=ardilla.
 
+## Estructura del repositorio
+- `processed_data/` — CSV de partición (train/val/test) y archivos derivados
+- `saved_models/` — modelos entrenados (no se suben los .pkl)
+- `dataset_animals10/` — dataset local (no se sube al repo)
+- Notebooks: `WildGuard-Fauna.ipynb`
+
 ## Instalación
+```bash
 pip install -r requirements.txt
-
-## Reproducibilidad
-Semilla aleatoria fija: 42 (partición, modelos y NumPy).
-Partición 70/15/15 estratificada en `processed_data/*.csv`.
-
-## Orden de ejecución
-1. Partición de datos (Jasciel)
-2. Características y modelos clásicos (Osvaldo)
-3. Agrupamiento y métricas (Betzie)
