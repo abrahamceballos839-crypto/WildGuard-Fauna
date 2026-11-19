@@ -1,0 +1,31 @@
+{
+    "model_name": "4. Transfer Learning - EfficientNetB0",
+    "model_path": "models/wildguard_cnn_final.keras",
+    "input_shape": [
+        128,
+        128,
+        3
+    ],
+    "pixel_range": "[0.0, 1.0]",
+    "preprocessing": "rescale=1.0/255.0",
+    "output_type": "softmax_probabilities",
+    "num_classes": 10,
+    "class_names": [
+        "cane",
+        "cavallo",
+        "elefante",
+        "farfalla",
+        "gallina",
+        "gatto",
+        "mucca",
+        "pecora",
+        "ragno",
+        "scoiattolo"
+    ],
+    "test_metrics": {
+        "accuracy": 0.9478,
+        "precision_macro": 0.9402,
+        "recall_macro": 0.9478,
+        "f1_score_macro": 0.9437
+    }
+}
