@@ -131,7 +131,7 @@ class WildGuardEnv(gym.Env):
         elif action == 5:
             if terreno_actual == "H":
                 if self.battery <= 50:
-                    reward += 20  # Premia recargar cuando realmente lo necesita
+                    reward += 35  # Premia recargar cuando realmente lo necesita
                 else:
                     reward -= 2   # Evita recargas innecesarias con batería alta
                 self.battery = 100
@@ -143,7 +143,7 @@ class WildGuardEnv(gym.Env):
         # Fin de episodio por batería agotada o límite de pasos
         terminated = self.battery <= 0
         if terminated:
-            reward -= 30
+            reward -= 100
             info["evento"] = "bateria_agotada"
 
         truncated = self.steps >= self.max_steps
