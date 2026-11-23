@@ -225,3 +225,4 @@ dataset_animals10/
 saved_models/
 *.zip
 *.npz
+raw-img/
