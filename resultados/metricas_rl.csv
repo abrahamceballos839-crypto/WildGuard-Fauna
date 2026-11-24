@@ -1,0 +1,4 @@
+politica,recompensa_media,std,eventos
+Aleatoria,-129.89,34.76633285234438,
+SARSA A,139.5,,"{""bateria_agotada"": 10}"
+SARSA B,148.6,,"{""recarga_exitosa"": 30}"
