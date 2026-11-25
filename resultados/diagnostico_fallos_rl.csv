@@ -1,0 +1,4 @@
+politica,retorno_medio,% episodios batería agotada (eval),% agotada últimos 100 ep. de entrenamiento,pasos medios,fotos medias,fotos con error CNN,fotos baja confianza,recargas útiles,epsilon final
+Aleatoria,-143.66,100.0,,60.87,5.85,0.38,0.31,0.16,
+SARSA A,116.11,100.0,100.0,50.0,20.0,0.87,0.89,0.0,0.17
+SARSA B,196.64,0.0,13.0,200.0,16.0,0.74,0.72,5.0,0.05

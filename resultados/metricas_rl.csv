@@ -1,4 +1,4 @@
 politica,recompensa_media,std,eventos
-Aleatoria,-129.89,34.76633285234438,
-SARSA A,139.5,,"{""bateria_agotada"": 10}"
-SARSA B,148.6,,"{""recarga_exitosa"": 30}"
+Aleatoria,-143.66,35.35766394998403,"{""sin_fauna_en_base"": 99, ""recarga_fallida"": 885, ""foto_correcta"": 504, ""recarga_innecesaria"": 92, ""celda_ya_fotografiada"": 311, ""recarga_util"": 16, ""foto_error_cnn"": 38, ""bateria_agotada"": 100, ""foto_baja_confianza"": 31}"
+SARSA A,116.11,17.509366065052156,"{""foto_correcta"": 1824, ""foto_error_cnn"": 87, ""celda_ya_fotografiada"": 300, ""bateria_agotada"": 100, ""foto_baja_confianza"": 89}"
+SARSA B,196.64,16.77290672483455,"{""foto_correcta"": 1454, ""foto_error_cnn"": 74, ""recarga_util"": 500, ""foto_baja_confianza"": 72}"

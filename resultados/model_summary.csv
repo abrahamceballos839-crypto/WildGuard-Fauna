@@ -1,0 +1,7 @@
+capa,tipo,params,salida
+input_layer_6,InputLayer,0,"(None, 128, 128, 3)"
+rescaling,Rescaling,0,"(None, 128, 128, 3)"
+efficientnetb0,Functional,4049571,"(None, 4, 4, 1280)"
+global_average_pooling2d_6,GlobalAveragePooling2D,0,"(None, 1280)"
+dropout_6,Dropout,0,"(None, 1280)"
+dense_12,Dense,12810,"(None, 10)"
